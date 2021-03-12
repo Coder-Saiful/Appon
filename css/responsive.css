@@ -1,0 +1,321 @@
+/*// Extra small devices (portrait phones, less than 576px)*/
+@media(max-width: 575.98px) { 
+
+    .navbar img {
+        width: 185px;
+    }
+    .openNav{
+        display:block;
+    }
+    .navbar .container {
+        padding: 0 16px;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        padding: 6px 12px 6px 12px;
+        border-radius: 3px;
+        margin-bottom: 7px;
+    }
+    .navbar-light .navbar-nav .nav-link:hover{
+        background:white;
+    }
+    .navbar-light .navbar-nav .nav-link.active{
+        background:white;
+    }
+    .navbar-light .navbar-nav .nav-link::before {
+        top: 28px;
+    }
+    #free_trial {
+        margin-left: 0;
+        display: block;
+        padding: 6px 12px 6px 12px !important;
+    }
+    .banner_text {
+        padding: 145px 0px 80px 0px;
+    }
+    #about_part {
+        padding: 55px 0px 35px 0px;
+    }
+    .about_text p{
+        padding:0;
+    }
+    .about_image {
+        text-align: center;
+        margin-top: 25px;
+    }
+    #service_part {
+        padding: 50px 0px 31px 0px;
+    }
+    #screenshot_part {
+        padding: 50px 0px;
+    }
+    .screenshot_slide_image img {
+        width: 100%;
+    }
+    #video_part{
+        padding:120px 0px;
+    }
+    #pricing_part {
+        padding: 50px 0px;
+    }
+    .pricing_header {
+        margin-top: 70px;
+    }
+    .team_text_top img {
+        padding-bottom: 40px;
+    }
+    .team_info {
+        margin-top: -183px;
+    }
+    .team_info p {
+        padding: 0px 10px;
+    }
+    #team_part {
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+    .user_feedback {
+        padding: 30px 20px;
+        width: 100%;
+    }
+    #name_input {
+        width: 100%;
+    }
+    #email_input {
+        width: 100%;
+        margin-bottom:15px;
+    }
+    #website_input {
+        width: 100%;
+    }
+    .same_contact_field{
+        margin-bottom:15px;
+    }
+    #contact_part {
+        padding: 50px 0px;
+    }
+    .banner-slider > .slick-dots {
+        right: 1px;
+    }
+    .home_icon {
+        right: 10px;
+        top: 290px;
+        font-size: 16px;
+    }
+    .banner-slider > .slick-dots li {
+        width: 16px;
+        height: 16px;
+    }
+    .banner-slider > .slick-dots li button {
+        width: 6px;
+        height: 6px;
+        line-height: 20px;
+    }
+    .user_image img {
+        width: 80px;
+    }
+    .slide-image {
+        width: 370px;
+    }
+    .team_image img {
+        width: 100%;
+    }
+    .banner_button {
+        display: inline-flex;
+        flex-direction: column;
+    }
+    .android_link {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    .banner_text p {
+        padding: 0;
+    }
+
+}
+
+
+
+
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media(min-width: 576px) and (max-width: 767.98px) { 
+
+    .navbar img {
+        width: 185px;
+    }
+    .openNav{
+        display:block;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        padding: 6px 12px 6px 12px;
+        border-radius: 3px;
+        margin-bottom: 7px;
+    }
+    .navbar-light .navbar-nav .nav-link:hover{
+        background:white;
+    }
+    .navbar-light .navbar-nav .nav-link.active{
+        background:white;
+    }
+    .navbar-light .navbar-nav .nav-link::before {
+        top: 28px;
+    }
+    #free_trial {
+        margin-left: 0;
+        display: block;
+        padding: 6px 12px 6px 12px !important;
+    }
+    .banner_text {
+        padding: 145px 0px 80px 0px;
+    }
+    #about_part {
+        padding: 55px 0px 35px 0px;
+    }
+    .about_text p{
+        padding:0;
+    }
+    .about_image {
+        text-align: center;
+        margin-top: 25px;
+    }
+    #service_part {
+        padding: 50px 0px 31px 0px;
+    }
+    #screenshot_part {
+        padding: 50px 0px;
+    }
+    .screenshot_slide_image img {
+        width: 100%;
+    }
+    #video_part{
+        padding:120px 0px;
+    }
+    #pricing_part {
+        padding: 50px 0px;
+    }
+    .pricing_header {
+        margin-top: 70px;
+    }
+    .team_text_top img {
+        padding-bottom: 40px;
+    }
+    .team_info {
+        margin-top: -183px;
+    }
+    .team_info p {
+        padding: 0px 10px;
+    }
+    #team_part {
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+    .user_feedback {
+        padding: 30px 20px;
+        width: 100%;
+    }
+    #name_input {
+        width: 100%;
+    }
+    #email_input {
+        width: 100%;
+        margin-bottom:15px;
+    }
+    #website_input {
+        width: 100%;
+    }
+    .same_contact_field{
+        margin-bottom:15px;
+    }
+    #contact_part {
+        padding: 50px 0px;
+    }
+    .banner-slider > .slick-dots {
+        right: 1px;
+    }
+    .home_icon {
+        right: 10px;
+        top: 245px;
+    }
+    
+}
+
+
+
+
+
+/*// Medium devices (tablets, 768px and up)*/
+@media(min-width: 768px) and (max-width: 991.98px) { 
+    
+    .openNav{
+        display:block;
+    }
+
+    .navbar img {
+        width: 185px;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        padding: 6px 12px 6px 12px;
+        border-radius: 3px;
+        margin-bottom: 7px;
+    }
+    .navbar-light .navbar-nav .nav-link:hover{
+        background:white;
+    }
+    .navbar-light .navbar-nav .nav-link.active{
+        background:white;
+    }
+    .navbar-light .navbar-nav .nav-link::before {
+        top: 28px;
+    }
+    #free_trial {
+        margin-left: 0;
+        display: block;
+        padding: 6px 12px 6px 12px !important;
+    }
+    .about_text p{
+        padding:0;
+    }
+    .about_image {
+        text-align: center;
+        margin-top: 25px;
+    }
+    .pricing_header {
+        margin-top: 70px;
+    }
+    .user_feedback{
+        width:100%;
+    }
+    .banner-slider > .slick-dots {
+        right: 10px;
+    }
+    .home_icon {
+        right: 19px;
+        top: 310px;
+    }
+    
+}
+
+
+
+
+
+/*// Large devices (desktops, 992px and up)*/
+@media(min-width: 992px) and (max-width: 1199.98px) { 
+
+
+
+}
+
+
+
+
+
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media(min-width: 1200px) { 
+
+
+
+}
+
+
+
